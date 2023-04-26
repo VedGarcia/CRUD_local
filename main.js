@@ -120,6 +120,10 @@ function editStaff() { // para guardar los cambios hechos
 }
 
 function closeSingle(id){ // para eliminar un trabajador
+  if (editing){
+    alert("Necesitas finalizar la edición para poder eliminar");
+    return;
+  }
   staffList = staffList.filter(staff => staff.id !== id);
 
   cleanHTML();
