@@ -1,0 +1,82 @@
+:root{
+    --letra: "JetBrains Mono"
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.title_container{
+    padding: 1%;
+    font-size: x-large;
+    color: #053b3d;
+}
+.container{
+    position: absolute;
+    background-color: #75e9e9;
+    color: #053b3d;
+    font-family: var(--letra);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app_contain{
+    display: flex;
+}
+.form_container{
+    background-color: #114647;
+    color: #75e9e9;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 2em;
+    width: 16em;
+    height: 12em;
+}
+#name, #puesto, #btn_plus{
+    height: 2em;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #75e9e9;
+    color: #034232;
+    font-family: var(--letra);
+    font-size: 1em;
+    margin: 5px;
+}
+#btn_plus:hover{
+    background-color:#034232 ;
+    color:#75e9e9;
+    box-shadow: 0 0 10px #75e9e9;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.list_contain{
+    border: solid 2px #034232;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 2em;
+    width: 25em;
+    height: 30em;
+}
+.btn{
+    outline: none;
+    background-color: none;
+    border: none;
+    color: #75e9e9;
+    margin: 4px;
+    border-radius: 2px;
+    width: 3em;
+    height: 2em;
+    cursor: pointer;
+}
+.btn_close{
+    background-color: #6e2001;
+
+}
+.btn_edit{
+    background-color: #114647;
+}
